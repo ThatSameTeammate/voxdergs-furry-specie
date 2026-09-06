@@ -1,1 +1,0 @@
-# voxdergs-furry-specie
