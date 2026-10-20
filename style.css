@@ -2,7 +2,7 @@
   --bg-color: #121212;
   --card-bg: #1e1e1e;
   --text-color: #e0e0e0;
-  --accent: #f0c040;         
+  --accent: #f0c040;
   --accent-soft: #f0c04033;
   --border: #333;
 }
@@ -200,7 +200,7 @@ blockquote {
   font-style: normal;
 }
 
-.author-quote::before { 
+.author-quote::before {
   font-weight: 600;
   color: #b5a8e0;
 }
@@ -218,3 +218,42 @@ blockquote {
   padding-bottom: 0.4rem;
 }
 
+.AI {
+  cursor: pointer;
+  background-color: var(--card-bg);
+  color: var(--accent);
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 3rem;
+}
+
+summary {
+  list-style: none;
+  border: 3px solid var(--border);
+}
+
+
+.art>img {
+  width: 715px;
+  height: 500px;
+}
+
+figure {
+  border: 3px solid var(--border);
+  font-style: italic;
+  color: var(--accent);
+  text-align: center;
+  background-color: var(--card-bg);
+}
+
+.future {
+  color: violet;
+}
+
+.triggered {
+  color: black;
+  background-color: var(--accent);
+  font-weight: bold;
+  padding-left: 2px;
+  padding-right: 2px;
+}
